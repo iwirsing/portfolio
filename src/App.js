@@ -1,9 +1,8 @@
+import React from "react";
+import PortfolioHolder from "./components/PortfolioHolder";
 
-
-function App() {
-  return (
-    <div>Hello!</div>
-  );
-}
+const App= () =>{
+  return <PortfolioHolder />;
+} 
 
 export default App;

@@ -16,7 +16,7 @@ function Project(props) {
 
                 <h3>{props.title}</h3>
 
-                <p className='content'>{props.description}</p>
+                <p className='content' style={{fontSize:'1rem'}}>{props.description}</p>
             </div>
         </a>
     </Card>;

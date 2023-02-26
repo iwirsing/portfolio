@@ -32,7 +32,7 @@
 .card:hover{
   /* background-color: #E5684A ; */
   border: 1px dashed white;/*draw border*/
-  border-image: url('../projects/assets/images/brick.jpeg') 30/ 1rem round;
+  border-image: url('../projects/assets/images/brick.jpeg') 30/ .5rem round;
   border-radius: 7px;
   /* color: white !important; */
   transform: scale(115%);

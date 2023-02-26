@@ -1,8 +1,5 @@
 import './Header.module.css';
 //import image
-import gardenbed from './projects/assets/images/gardenbed1.jpeg';
-
-
 
 
 function Header({ currentPage, handlePageChange }) {

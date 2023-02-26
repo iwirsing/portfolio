@@ -1,0 +1,28 @@
+/* MAIN CONTACT */
+/* contact me icons and links */
+.icon{
+    align-content: center;
+    border-radius: 10px;
+    height: 5em;
+    width: 5em;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -ms-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+  }
+
+  
+
+
+  /* MAIN CONTACT: hover features */
+.linkedin:hover,.email:hover{
+    background-color:white;
+    transform: scale(125%);
+  }
+  
+.github:hover,.h4:hover {
+    background-color:black;
+    color:white;
+    transform: scale(125%);
+  }

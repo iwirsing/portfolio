@@ -6,7 +6,7 @@ import ProjectsPage from './pages/Project'
 //import layout holder - a container for the pages
 import Layout from './layout/Layout';
 import PageLayout from './layout/PageLayout';
-import GardenBed2 from './projects/assets/images/gardenbed2.jpeg';
+import GardenBed1 from './projects/assets/images/brick.jpeg';
 
 //import css
 import './PortfolioHolder.module.css';
@@ -42,7 +42,7 @@ export default function PortfolioHolder() {
 
 
     return (
-        <Layout className='container-fluid ' style={{ backgroundImage: `url(${GardenBed2})` }} >
+        <Layout className='container-fluid ' style={{ backgroundImage: `url(${GardenBed1})` }} >
     
 
             
@@ -53,7 +53,7 @@ export default function PortfolioHolder() {
             </div>
 
 
-            <div className='row d-flex' style={{backgroundColor:'rgba(255, 255, 255, 0.75)',margin:'1rem',borderRadius:'20px'}}>
+            <div className='row d-flex page-contain' style={{backgroundColor:'rgba(255, 255, 255, 0.75)',margin:'1rem',borderRadius:'20px'}}>
                 {renderPage()}
                 
                 <Header currentPage={currentPage} handlePageChange={handlePageChange} />
@@ -61,7 +61,7 @@ export default function PortfolioHolder() {
             </div>
 
             <footer>
-                <Footer footer='© Ivy Wirsing 2022' />
+                <Footer footer='© Ivy Wirsing 2023' />
             </footer>
 
 

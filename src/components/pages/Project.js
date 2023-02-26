@@ -11,6 +11,7 @@ function ProjectsPage() {
             <div >
             <div className='apps row justify-content-around'>
 
+
                 {myProjects.map((proj) =>
                     <Project key={proj.key}
                         image={proj.image}

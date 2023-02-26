@@ -1,6 +1,6 @@
 import React from 'react';
 import ivy from '../projects/assets/images/ivy1.png'
-import './pages.module.css'
+
 
 
 function HomePage() {
@@ -13,12 +13,12 @@ function HomePage() {
 
         </div>
         <div className='col-12 col-sm-6 align-middle'>
-             <h1></h1>
+          <p></p>
 
             <p style={{fontSize:'.8rem'}}>Hi, my name is</p>
             <h2>Ivy Wirsing</h2>
             <p style={{fontSize:'1rem'}}>I am a developer based in Chicago. I enjoy being active. I love to garden and make things happen. And just like the possibilities of the big outdoors... </p>
-            <p style={{color:'#9C030C', fontWeight:'bolder'}}>I would love to code for you!</p>
+            <p style={{color:'#9C030C', fontWeight:'bolder'}}>I'd love to code for you!</p>
 
             <p style={{fontSize:'1rem'}}>
             {`<`}   HTML  &emsp; 

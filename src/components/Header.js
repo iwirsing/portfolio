@@ -1,4 +1,4 @@
-import classes from './Header.module.css';
+import './Header.module.css';
 //import image
 import gardenbed from './projects/assets/images/gardenbed1.jpeg';
 
@@ -7,31 +7,31 @@ import gardenbed from './projects/assets/images/gardenbed1.jpeg';
 
 function Header({ currentPage, handlePageChange }) {
     return (
-        <header style={{ backgroundImage: `url(${gardenbed})` }}>
-            <div className={classes.header} >
-                <h1> Ivy's Garden</h1>
-                <p>Where web apps are cultivated.</p>
-            </div>
+        <div className='col-sm-8 col-md-3 col-3  align-items-middle text-left order-1 order-sm-2' style={{display:'flex', alignItems:'center'}}>
+            {/* <div className='d-block h-35'> </div> */}
+            <nav className='nav' >
+                <ul >
+                   
+                <li >
+                    <a href='#homepage' onClick={() => handlePageChange('HomePage')}
+                        className={currentPage === 'HomePage' ? 'nav-link active' : 'nav-link'}>Home</a>
+                </li>
 
-            <nav className={classes.nav}>
-                
-                    <div>
-                        <a href='#homepage' onClick={() => handlePageChange('HomePage')}
-                            className={currentPage === 'HomePage' ? 'nav-link active' : 'nav-link'}>Home Page</a>
-                    </div>
+                <li>
+                    <a href='#projects' onClick={() => handlePageChange('ProjectsPage')}
+                        className={currentPage === 'ProjectsPage' ? 'nav-link active' : 'nav-link'}>Projects</a>
+                </li>
 
-                    <div>
-                        <a href='#projects' onClick={() => handlePageChange('ProjectsPage')}
-                            className={currentPage === 'ProjectsPage' ? 'nav-link active' : 'nav-link'}>My Cultivars</a>
-                    </div>
-
-                    <div>
-                        <a href='#contact' onClick={() => handlePageChange('ContactPage')}
-                            className={currentPage === 'ContactPage' ? 'nav-link active' : 'nav-link'}>Contact Page</a>
-                    </div>
-            
+                <li>
+                    <a href='#contact' onClick={() => handlePageChange('ContactPage')}
+                        className={currentPage === 'ContactPage' ? 'nav-link active' : 'nav-link'}>Contact</a>
+                </li>
+                </ul>
             </nav>
-        </header>
+            {/* <div className='d-block h-35'> </div> */}
+
+        </div>
+
     );
 };
 

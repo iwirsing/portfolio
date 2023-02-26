@@ -4,27 +4,36 @@ import HomePage from './pages/Home';
 import ContactPage from './pages/Contact';
 import ProjectsPage from './pages/Project'
 //import layout holder - a container for the pages
-import Layout from './layout/Layout'
+import Layout from './layout/Layout';
+import PageLayout from './layout/PageLayout';
+import GardenBed2 from './projects/assets/images/gardenbed2.jpeg';
 
+//import css
+import './PortfolioHolder.module.css';
 
+//import title component
+import Title from './Title';
 
 //navigation
 import Header from './Header';
+
+//import footer
+import Footer from './Footer';
 
 export default function PortfolioHolder() {
     const [currentPage, setCurrentPage] = useState('HomePage');
 
     const renderPage = () => {
         if (currentPage === 'HomePage') {
-            return <Layout> <HomePage /> </Layout>;
+            return <PageLayout> <HomePage /> </PageLayout>;
         }
 
         if (currentPage === 'ProjectsPage') {
-            return <Layout> <ProjectsPage /> </Layout>;
+            return <PageLayout> <ProjectsPage /> </PageLayout>;
         }
 
         if (currentPage === 'ContactPage') {
-            return <Layout> <ContactPage /> </Layout>;
+            return <PageLayout> <ContactPage /> </PageLayout>;
         }
 
     };
@@ -33,10 +42,30 @@ export default function PortfolioHolder() {
 
 
     return (
-        <Layout >
-  
-            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+        <Layout className='container-fluid ' style={{ backgroundImage: `url(${GardenBed2})` }} >
+    
+
+            
+            <div>
+                <Title title='IW'>
+
+                </Title>
+            </div>
+
+
+            <div className='row d-flex' style={{backgroundColor:'rgba(255, 255, 255, 0.75)',margin:'1rem',borderRadius:'20px'}}>
+                {renderPage()}
+                
+                <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+
+            </div>
+
+            <footer>
+                <Footer footer='© Ivy Wirsing 2022' />
+            </footer>
+
+
+
 
         </Layout>
     );

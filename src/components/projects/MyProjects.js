@@ -1,4 +1,4 @@
-import image1 from './assets/images/brick.jpeg'
+import image1 from './assets/images/fof.png'
 
 const MyProjects =[
 

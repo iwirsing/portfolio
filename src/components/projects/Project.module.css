@@ -3,16 +3,25 @@
   }
   
   .image {
-    width: 250px;
+    max-width: 250px;
     height: 20rem;
     overflow: hidden;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
+   
   }
   
-  .image img {
+img {
+    max-width: 300px;
     width: 100%;
     object-fit: cover;
+    height: 15rem;
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin:auto;
+    padding: 1rem;
+
   }
   
   .content {
@@ -24,6 +33,7 @@
     font-size: 1.25rem;
     color: #2c292b;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .actions {
@@ -45,3 +55,5 @@
   .actions:active {
     background-color: coral;
   }
+
+

@@ -2,4 +2,12 @@
     margin: 1rem auto;
     width: 90%;
     /* max-width: 40rem; */
+   
   }
+
+.bg {
+  background-image: url(../projects/assets/images/gardenbed2.jpeg);
+  height: auto;
+  
+};
+

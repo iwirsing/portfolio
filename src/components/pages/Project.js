@@ -16,6 +16,7 @@ function ProjectsPage() {
                     <Project key={proj.key}
                         image={proj.image}
                         title={proj.title}
+                        repository={proj.repository}
                         link={proj.link}
                         description={proj.description} className='col-md'/>
                 )}

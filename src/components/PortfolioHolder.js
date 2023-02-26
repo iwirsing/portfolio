@@ -11,11 +11,11 @@ import GardenBed1 from './projects/assets/images/brick.jpeg';
 //import css
 import './PortfolioHolder.module.css';
 
-//import title component
-import Title from './Title';
+//import header component
+import Header from './Header';
 
 //navigation
-import Header from './Header';
+import Navigation from './Navigation';
 
 //import footer
 import Footer from './Footer';
@@ -47,16 +47,16 @@ export default function PortfolioHolder() {
 
             
             <div>
-                <Title title='IW'>
+                <Header title='IW'>
 
-                </Title>
+                </Header>
             </div>
 
 
             <div className='row d-flex page-contain' style={{backgroundColor:'rgba(255, 255, 255, 0.75)',margin:'1rem',borderRadius:'20px'}}>
                 {renderPage()}
                 
-                <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
 
             </div>
 

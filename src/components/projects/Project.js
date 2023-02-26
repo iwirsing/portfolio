@@ -3,6 +3,7 @@ import React from "react";
 import Card from '../ui/Card'
 //import css
 import './Project.module.css';
+import GithubIcon from './assets/images/github.png';
 
 
 
@@ -12,13 +13,22 @@ function Project(props) {
             <div className='image'>
                 <img src={props.image} alt={props.title} />
             </div>
-            <div >
+            <div>
 
-                <h3>{props.title}</h3>
-
-                <p className='content' style={{fontSize:'1rem'}}>{props.description}</p>
+                <h4>{props.title}</h4>
             </div>
         </a>
+        <p className='content' style={{ fontSize: '1rem' }}>
+           
+            <a href={props.repository}>
+                <img src={GithubIcon} alt='github link' style={{ height: '5rem', width: '5rem' }} ></img>
+            </a>
+            <span>
+            {props.description}
+            </span>
+        </p>
+
+
     </Card>;
 
 }

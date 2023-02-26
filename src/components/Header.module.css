@@ -1,102 +1,43 @@
-nav {
-
+h1 {
+    color: #9C030C;
     font-family: 'Tangerine', cursive;
-    width: 100%;
-    font-size: 3rem;;
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* background-color: teal; */
-    /* background-color: #28875E; */
-    padding: 0 10%;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+    font-size: 11rem;
+    font-weight: 900px;
+    margin-left: 3rem;
+    padding-top:1rem;
+    /* margin-top: 3rem; */
+    text-shadow:   -3px -3px 0 white,
+    3px -3px 0 white,
+    -3px 3px 0 white,
+    3px 3px 0 white;
+  
+}
+
+h2{
+  color: #9C030C;
+  font-family: 'Tangerine', cursive;
+  font-size: 6rem;
+  font-weight: 900px;
+  margin-left: 1rem;
+
+}
+
+p{
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@supports (-webkit-text-stroke: 1px #9C030C) {
+    h1 {
+      -webkit-text-stroke: 0.1rem #9C030C;
+      -webkit-text-fill-color: 100px #9C030C;
+    }
   }
 
-nav a, li{
-  color:black;
-  text-decoration: none;
-  text-shadow:   -1px -1px 0 white,
-  1px -1px 0 white,
-  -1px 1px 0 white,
-  1px 1px 0 white;
-  list-style-type: none ;
 
-
-  /* color: #F4F8F5; */
-}
- nav a:hover{
-  text-decoration: underline;
-  border-radius: 20%;
-  background-color: #C8B3A7; 
-
-}
-
-a:focus{
-
-  text-decoration: underline !important;
-}
-
-/* @supports (-webkit-text-stroke: 1px white) {
-  nav a{
-    -webkit-text-stroke: 0.1rem white;
-    -webkit-text-fill-color: 100px black;
-  }
-} */
-
-
-header {
-    color:#F4F8F5;
-}
-
-header h1{
-  padding:1rem;
-}
-
-header p{
-  padding-left: 1rem;
-}
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  min-height: 100vh !important;
-  z-index: 100;
-  padding: 48px 0 0;
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-}
-#sidebar-wrapper{
-  min-height: 100vh !important;
-  width: 100vw;
-  margin-left: -1rem;
-  -webkit-transition: margin .25s ease-out;
-  -moz-transition: margin .25s ease-out;
-  -o-transition: margin .25s ease-out;
-  transition: margin .25s ease-out;
-}
-#sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
-}
-
-#page-content-wrapper {
-  min-width: 0;
-  width: 100%;
-}
-
-
-    
 /* media queries */
 @media screen and (max-width: 768px) {
- a{
-    margin: 0 !important;
-    /* font-size: 2rem; */
-
+  h1{
+    margin:auto !important;
   }
-
 }

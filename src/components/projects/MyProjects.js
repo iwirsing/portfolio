@@ -8,6 +8,7 @@ const MyProjects =[
         key: 1,
         title: 'Feast Of Friends',
         link: 'https://feast-of-friends.herokuapp.com/',
+        repository:'https://github.com/A-Tribu/feast-of-friends',
         description: 'potluck organizer',
         image:`${image1}`
     },
@@ -15,6 +16,7 @@ const MyProjects =[
         key: 2,
         title: 'Cards Againts Apathy',
         link: 'https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/',
+        repository:'https://github.com/The-Fighting-Mongooses-Official/Cards-Against-Apathy',
         description: '\'gamifying\' exercise',
         image:`${cards}`
     },
@@ -22,6 +24,7 @@ const MyProjects =[
         key: 3,
         title: 'Coding Quiz',
         link: 'https://iwirsing.github.io/Module-4-Challenge-Coding-Quiz-Game/"',
+        repository:'https://github.com/iwirsing/Module-4-Challenge-Coding-Quiz-Game',
         description: 'a challenge for coding beginners',
         image:`${quiz}`
     },
@@ -29,6 +32,7 @@ const MyProjects =[
         key: 4,
         title: 'Password Generator',
         link: 'https://iwirsing.github.io/Module-3-Challenge-Password-Generator/',
+        repository:'https://github.com/iwirsing/Module-3-Challenge-Password-Generator',
         description: 'generating secure passwords',
         image:`${password}`
     },

@@ -1,8 +1,8 @@
 {
   "name": "module-20-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://iwirsing/github.io/Module-20-REACT-Portfolio",
-  "private": true,
+  "homepage": "https://iwirsing.github.io/Module-20-REACT-Portfolio",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",

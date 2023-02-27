@@ -29,14 +29,15 @@ nav a, li{
   /* color: #F4F8F5; */
 }
  nav a:hover{
-  text-decoration: ;
+  
   border-radius: 20%;
   background-color: #C8B3A7; 
-
+  /* color: #677E84; */
+  color:#9C030C;
 }
 
 a:focus{
-
+  color:#9C030C;
   text-decoration: underline !important;
 }
 

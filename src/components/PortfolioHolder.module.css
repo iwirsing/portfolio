@@ -1,14 +1,7 @@
-/* @media all and (max-width: 899px) {
+@media screen and (max-width: 768px) {
+  Layout{
+    min-width: 80vw;
+    margin:auto;
+  }
 
-    .overflow-container {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-    .overflow-container .sidebar{
-      order: 1;
-    }
-    .overflow-container .page {
-      order: 2;
-    }
-  } */
+}

@@ -17,13 +17,21 @@
   }
 
 .card a{
-  font: inherit;
-  cursor: pointer;
-  color:#9C030C; 
+
   background-color: transparent;
-  padding: 0.5rem 1.5rem;
   border-radius: 4px;
+  /* color:#9C030C;  */  
+  color: #677E84;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
   
+  
+}
+
+.card a:hover{
+  /* color: #677E84; */
+  color:#9C030C;
 }
 
 .card:hover{
@@ -31,6 +39,7 @@
   border: 1px dashed white;/*draw border*/
   border-image: url('../projects/assets/images/brick.jpeg') 30/ .5rem round;
   border-radius: 7px;
+  
   /* color: white !important; */
   transform: scale(110%);
   /* color: #677E84; */

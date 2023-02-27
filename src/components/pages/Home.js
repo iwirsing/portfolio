@@ -5,14 +5,14 @@ import ivy from '../projects/assets/images/ivy1.png'
 
 function HomePage() {
 
-    return <div className=' row  align-middle text-center'>
+    return <div className=' row  align-middle text-center mt-3 container-fluid'>
 
         <div className='col-12 col-sm-5'>
             <h6></h6>
             <img className='img-fluid profile shadow-lg p-3 mb-5 bg-body rounded-pill border ' style={{backgroundColor:'#C8B3A7'}} src={ivy} alt='Ivy'></img>
 
         </div>
-        <div className='col-12 col-sm-6 align-middle'>
+        <div className='col-12 col-sm-7 align-middle'>
           <p></p>
 
             <p style={{fontSize:'.8rem'}}>Hi, my name is</p>

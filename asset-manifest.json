@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Module-20-REACT-Portfolio/static/css/main.f4c90eb7.css",
-    "main.js": "/Module-20-REACT-Portfolio/static/js/main.a78417a4.js",
+    "main.css": "/Module-20-REACT-Portfolio/static/css/main.a409e6ed.css",
+    "main.js": "/Module-20-REACT-Portfolio/static/js/main.e235789b.js",
     "static/media/ivy1.png": "/Module-20-REACT-Portfolio/static/media/ivy1.0a27e9313cba7a0c4afe.png",
     "static/media/cards-against-apathy.png": "/Module-20-REACT-Portfolio/static/media/cards-against-apathy.a0909d4a351b4ebee8ed.png",
     "static/media/Coding Quiz Challenge.png": "/Module-20-REACT-Portfolio/static/media/Coding Quiz Challenge.f69f8e4441cbf7c15b1a.png",
@@ -12,11 +12,11 @@
     "static/media/iconemail.png": "/Module-20-REACT-Portfolio/static/media/iconemail.fb55cba0f654c61e1586.png",
     "static/media/brick.jpeg": "/Module-20-REACT-Portfolio/static/media/brick.c71dc89ef58e12830395.jpeg",
     "index.html": "/Module-20-REACT-Portfolio/index.html",
-    "main.f4c90eb7.css.map": "/Module-20-REACT-Portfolio/static/css/main.f4c90eb7.css.map",
-    "main.a78417a4.js.map": "/Module-20-REACT-Portfolio/static/js/main.a78417a4.js.map"
+    "main.a409e6ed.css.map": "/Module-20-REACT-Portfolio/static/css/main.a409e6ed.css.map",
+    "main.e235789b.js.map": "/Module-20-REACT-Portfolio/static/js/main.e235789b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4c90eb7.css",
-    "static/js/main.a78417a4.js"
+    "static/css/main.a409e6ed.css",
+    "static/js/main.e235789b.js"
   ]
 }

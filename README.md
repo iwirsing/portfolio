@@ -10,6 +10,17 @@ Deployed website: https://iwirsing.github.io/Module-20-REACT-Portfolio/
 ##  Table of Contents 
 1. [Installation](#installation)
 2. [Features and Screenshots](#features-and-screenshots)
+
+    a. [Home](#home)
+
+    b. [Projects](#projects)
+
+    c. [Contact](#contact)
+
+    d. [Resume](#resume)
+
+    e. [Footer](#footer)
+
 3. [Contributing](#contributing) 
 4. [Future Development]()
 5. [Questions](#questions)

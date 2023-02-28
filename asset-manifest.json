@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Module-20-REACT-Portfolio/static/css/main.bbf703d5.css",
-    "main.js": "/Module-20-REACT-Portfolio/static/js/main.2f4202e9.js",
+    "main.js": "/Module-20-REACT-Portfolio/static/js/main.26c4c32b.js",
     "static/media/ivy1.png": "/Module-20-REACT-Portfolio/static/media/ivy1.0a27e9313cba7a0c4afe.png",
     "static/media/cards-against-apathy.png": "/Module-20-REACT-Portfolio/static/media/cards-against-apathy.a0909d4a351b4ebee8ed.png",
     "static/media/Coding Quiz Challenge.png": "/Module-20-REACT-Portfolio/static/media/Coding Quiz Challenge.f69f8e4441cbf7c15b1a.png",
@@ -13,10 +13,10 @@
     "static/media/brick.jpeg": "/Module-20-REACT-Portfolio/static/media/brick.c71dc89ef58e12830395.jpeg",
     "index.html": "/Module-20-REACT-Portfolio/index.html",
     "main.bbf703d5.css.map": "/Module-20-REACT-Portfolio/static/css/main.bbf703d5.css.map",
-    "main.2f4202e9.js.map": "/Module-20-REACT-Portfolio/static/js/main.2f4202e9.js.map"
+    "main.26c4c32b.js.map": "/Module-20-REACT-Portfolio/static/js/main.26c4c32b.js.map"
   },
   "entrypoints": [
     "static/css/main.bbf703d5.css",
-    "static/js/main.2f4202e9.js"
+    "static/js/main.26c4c32b.js"
   ]
 }

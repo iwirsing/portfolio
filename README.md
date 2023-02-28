@@ -25,7 +25,7 @@ Deployed website: https://iwirsing.github.io/Module-20-REACT-Portfolio/
 ## Features and Screenshots
 
 ### Home:
-Displays the developer's introduction, image and technologies the developer is familiar with.
+Displays the developer's introduction and profile picture.
 ![homepage](./assets/readme%20images/homepage.png)
 
 ### Projects:
@@ -34,12 +34,17 @@ Displays the developer's projects, with card styling that is linked to the deplo
 
 ### Contact:
 Displays a communication form that provides user a way to contact the developer. When the user click's submit, at the moment the data will be displayed in the console log,
-The icons are linked to the developer's LinkedIn, Github as well as a mailTo to the developer's email address.
+
 ![contactpage](./assets//readme%20images//contactpage.png)
 
 UPON clicking the submit, the console log displays the form data.
 ![consolelog](./assets/readme%20images/consolelog.png)
 
+### Resume:
+Displays the technologies that the developer has worked with.
+
+### Footer:
+The icons are linked to the developer's LinkedIn, Github as well as a mailTo to the developer's email address.
 
 ## Contributing 
 
@@ -50,6 +55,7 @@ Contact the developer.
 2. Routing.
 3. Database connection.
 4. REACT animation.
+5. Personalize the domain name.
 
 ## Questions? 
 

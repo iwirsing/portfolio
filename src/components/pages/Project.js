@@ -5,24 +5,26 @@ import Project from '../projects/Project';
 function ProjectsPage() {
 
     return (
-        <main className='projectContainer container text-center '>
+        <div className='projectContainer container text-center progress ' style={{height: '70vh', backgroundColor:'white'}}>
 
 
-            <div >
-            <div className='apps row justify-content-around'>
+            <div style={{ overflowX: "hidden" }} >
+                <div>
+                    <div className='apps row justify-content-around'>
 
 
-                {myProjects.map((proj) =>
-                    <Project key={proj.key}
-                        image={proj.image}
-                        title={proj.title}
-                        repository={proj.repository}
-                        link={proj.link}
-                        description={proj.description} className='col-md'/>
-                )}
+                        {myProjects.map((proj) =>
+                            <Project key={proj.key}
+                                image={proj.image}
+                                title={proj.title}
+                                repository={proj.repository}
+                                link={proj.link}
+                                description={proj.description} className='col-md' />
+                        )}
+                    </div>
+                </div>
             </div>
-            </div>
-        </main>
+        </div>
     );
 }
 

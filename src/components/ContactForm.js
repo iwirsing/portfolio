@@ -32,27 +32,29 @@ function NewContactForm(props) {
 
     return <div>
         <form className={classes.form} onSubmit={submitHandler}>
+
             <div className={classes.control + ' form-group row'}>
-                <label className='col-sm-2 col-form-label' htmlFor='name'>Name</label>
-                <div className='col-sm-10'>
+                
+                <label className='col-sm-3 col-form-label' htmlFor='name'>Name</label>
+                <div className='col-sm-9'>
                     <input type='text' required id='name' ref={nameInputRef} />
                 </div>
 
             </div>
             <div className={classes.control + '  form-group row'}>
-                <label className='col-sm-2 col-form-label' htmlFor='email' placeholder='Email'>Email</label>
-                <div className='col-sm-10'>
+                <label className='col-sm-3 col-form-label' htmlFor='email' placeholder='Email'>Email</label>
+                <div className='col-sm-9'>
                     <input type='email' required id='email' ref={emailInputRef} />
                 </div>
 
             </div>
             <div className={classes.control+ ' form-group row'}>
-                <label className='col-sm-2 col-form-label' htmlFor='message'>Message</label>
-                <div className='col-sm-10'>
-                <textarea type='text' required id='message' rows='3' ref={messageInputRef} />
+                <label className='col-sm-3 col-form-label' htmlFor='message'>Message</label>
+                <div className='col-sm-9'>
+                <textarea type='text' required id='message' rows='5' ref={messageInputRef} />
                 </div>
             </div>
-            <div className={classes.actions}>
+            <div className={classes.actions+' text-center'}>
                 <button>Send</button>
             </div>
 

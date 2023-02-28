@@ -15,17 +15,18 @@ function Project(props) {
             </div>
             <div>
 
-                <h4>{props.title}</h4>
+                <h5>{props.title}</h5>
             </div>
         </a>
-        <p className='content' style={{ fontSize: '1rem' }}>
+        {props.description}
+        <p className='content' style={{ fontSize: '0.8rem' }}>
            
             <a href={props.repository}>
                 Repository: <img src={GithubIcon} alt='github link' style={{ height: '5rem', width: '5rem' }} ></img>
             </a>
-            <div>
-            {props.description}
-            </div>
+            
+            
+            
         </p>
 
 

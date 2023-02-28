@@ -1,5 +1,5 @@
 import React from 'react';
-import ivy from '../projects/assets/images/ivy1.png'
+import ivy from '../projects/assets/images/ivy1.jpeg'
 import './About.module.css'
 
 
@@ -7,7 +7,7 @@ import './About.module.css'
 function HomePage() {
 
     return <div className='container progress' style={{ height: '70vh', overflowY: 'scroll', backgroundColor: 'white'}}>
-    <div className=' row  align-middle text-center container'>
+    <div className=' row  align-middle text-center container' style={{ margin:'auto'}}>
 
         <div className='col-12 col-sm-5 p-3 container-fluid' >
             <img className='img-fluid profile shadow-lg mb-3 bg-body rounded-pill border ' style={{backgroundColor:'#C8B3A7'}} src={ivy} alt='Ivy'></img>

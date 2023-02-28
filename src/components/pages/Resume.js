@@ -1,4 +1,18 @@
 import React from 'react';
+import axios from 'axios';
+import fileDownload from 'js-file-download';
+import resume from '../resume/ivyresume.pdf'
+
+
+const handleDownload = (url, filename) => {
+    axios.get(url, {
+        responseType: 'blob',
+    })
+        .then((res) => {
+            fileDownload(res.data, filename)
+        })
+}
+
 
 function ResumePage() {
 
@@ -8,9 +22,15 @@ function ResumePage() {
 
 
     return <div className='container progress' style={{ height: '70vh', overflowY: 'scroll', backgroundColor: 'white' }}>
-        <div >
-            <h4 style={{ fontFamily: 'Tangerine', fontWeight: 'bolder', fontSize: '2rem' }}>Please check my &nbsp;
-                <a href={"https://www.linkedin.com/in/ivywirsing"} className="icon linkedin" target="_blank" rel="noopener noreferrer" style={{ color: '#9C030C' }}>LinkedIn</a> &nbsp; for my education and work history</h4>
+
+
+
+
+        <div style={{ margin: 'auto' }}>
+            
+
+            {/* <h4 style={{ fontFamily: 'Tangerine', fontWeight: 'bolder', fontSize: '2rem' }}>Please check my &nbsp;
+                <a href={"https://www.linkedin.com/in/ivywirsing"} className="icon linkedin" target="_blank" rel="noopener noreferrer" style={{ color: '#9C030C' }}>LinkedIn</a> &nbsp; for my education and work history</h4> */}
 
             <div className='row'>
                 <div className='col-12 col-sm-6 font-end'>
@@ -81,6 +101,9 @@ function ResumePage() {
                             PWA
                         </li>
                     </ol>
+                </div>
+                <div className='col-6 resume'>
+                <button style={{ fontFamily: 'Tangerine', fontWeight: 'bolder', fontSize: '2rem' }} onClick={() => { handleDownload(resume, 'ivyresume.pdf') }}>Download Resume</button>
                 </div>
             </div>
 

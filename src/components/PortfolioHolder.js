@@ -49,6 +49,21 @@ export default function PortfolioHolder() {
 
     };
 
+    const smQuery = window.matchMedia( '(max-width: 600px)' );
+
+    smQuery.addListener( handleMatch );
+
+    const navigation = document.querySelector(".navigation");
+
+    function handleMatch( changeToHorizontal ) {
+    if (changeToHorizontal.matches) { //if window size is smaller than 600px
+        navigation.style.display = "flex";
+        navigation.style.flexDirection = "column";
+    } else { 
+        navigation.style.display = "list-item";
+    }
+}
+
     const handlePageChange = (page) => setCurrentPage(page);
 
 
@@ -57,7 +72,7 @@ export default function PortfolioHolder() {
 
             <div className='row' style={{minHeight:"400px"}}>
 
-                <div className='col-3 mr-4 ml-4' style={{minHeight:"420px", padding:"1rem", marginBottom:'.75rem'}}>
+                <div className='col-12 col-md-3 col-sm-3 mr-4 ml-4' style={{minHeight:"420px", padding:"1rem", marginBottom:'.75rem'}}>
                     <div style={{marginBottom:'5rem', minHeight:"8rem"}}>
                         <Header title='IW'>
                         </Header>
@@ -69,7 +84,7 @@ export default function PortfolioHolder() {
                 </div>
 
 
-                <div className='col-8 col-md-8 col-sm-12 page-contain ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height:'82vh',minHeight:'450px', margin: '1rem', borderRadius: '20px', minWidth:"375px", marginBottom:'2rem', marginTop:'2rem'}}>
+                <div className='col-8 col-md-8 col-sm-12 page-contain ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height:'82vh',minHeight:'495px', margin: '1rem', borderRadius: '20px', minWidth:"375px", marginBottom:'2rem', marginTop:'2rem'}}>
                     {renderPage()}
 
 

@@ -4,12 +4,12 @@ import './Navigation.module.css';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
-        <div className='col-sm-12 col-md-3 col-3  align-items-middle text-center ' style={{display:'flex', alignItems:'center', marginTop: '1rem',  minWidth:'240px', backgroundColor: 'rgba(255, 255, 255, 0.75)', borderRadius: '20px', minHeight:'300px'  }}>
+        <div className='col-md-12 col-3  align-items-middle text-center' style={{minWidth:'240px', backgroundColor: 'rgba(255, 255, 255, 0.75)', borderRadius: '20px', minHeight:'250px'  }}>
             {/* <div className='d-block h-35'> </div> */}
-            <nav className='nav'  >
-                <ul>
-                   
-                <li >
+            <nav className='nav  text-center' style={{display:'flex',marginTop: '1rem', }} >
+              
+                   <ul className='navigation'>
+                <li   >
                     <a href='#homepage' onClick={() => handlePageChange('HomePage')}
                         className={currentPage === 'HomePage' ? 'nav-link active' : 'nav-link'}>About</a>
                 </li>

@@ -1,7 +1,9 @@
-import image1 from './assets/images/fof.png'
-import cards from './assets/images/cards-against-apathy.png'
-import quiz from './assets/images/Coding Quiz Challenge.png'
-import password from  './assets/images/password generator.png'
+import image1 from './assets/images/fof.png';
+import cards from './assets/images/cards-against-apathy.png';
+import quiz from './assets/images/Coding Quiz Challenge.png';
+import password from  './assets/images/password generator.png';
+import notetaker from './assets/images/notetaker.png';
+import pwaeditor from './assets/images/pwaeditor.png'
 const MyProjects =[
 
     {
@@ -9,7 +11,7 @@ const MyProjects =[
         title: 'Feast Of Friends',
         link: 'https://feast-of-friends.herokuapp.com/',
         repository:'https://github.com/A-Tribu/feast-of-friends',
-        description: 'potluck organizer',
+        description: 'A potluck organizer app.',
         image:`${image1}`
     },
     {
@@ -17,7 +19,7 @@ const MyProjects =[
         title: 'Cards Againts Apathy',
         link: 'https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/',
         repository:'https://github.com/The-Fighting-Mongooses-Official/Cards-Against-Apathy',
-        description: '\'gamifying\' exercise',
+        description: '\'Gamifying\' exercise.',
         image:`${cards}`
     },
     {
@@ -25,7 +27,7 @@ const MyProjects =[
         title: 'Coding Quiz',
         link: 'https://iwirsing.github.io/Module-4-Challenge-Coding-Quiz-Game/"',
         repository:'https://github.com/iwirsing/Module-4-Challenge-Coding-Quiz-Game',
-        description: 'a challenge for coding beginners',
+        description: 'A challenge for coding beginners.',
         image:`${quiz}`
     },
     {
@@ -33,8 +35,24 @@ const MyProjects =[
         title: 'Password Generator',
         link: 'https://iwirsing.github.io/Module-3-Challenge-Password-Generator/',
         repository:'https://github.com/iwirsing/Module-3-Challenge-Password-Generator',
-        description: 'generating secure passwords',
+        description: 'Generates secure passwords',
         image:`${password}`
+    },
+    {
+        key: 5,
+        title: 'Note Taker',
+        link: 'https://note-taker-wirsing.herokuapp.com/',
+        repository:'https://github.com/iwirsing/Module-11-Note-Taker',
+        description: 'Note taking with Express.',
+        image:`${notetaker}`
+    },
+    {
+        key: 6,
+        title: 'PWA Just Another Text Editor',
+        link: 'https://wirsing-jate.herokuapp.com/',
+        repository:'https://github.com/iwirsing/Module-19-PWA-Text-Editor',
+        description: 'Text editor that runs in browser and offline.',
+        image:`${pwaeditor}`
     },
 ]
 

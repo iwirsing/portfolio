@@ -26,14 +26,16 @@ Deployed website: https://iwirsing.github.io/Module-20-REACT-Portfolio/
 
 ### Home:
 Displays the developer's introduction and profile picture.
+
 ![homepage](./assets/readme%20images/homepage.png)
 
 ### Projects:
 Displays the developer's projects, with card styling that is linked to the deployed webpage and the git repository. Each project also has a short description.
+
 ![projectpage](./assets/readme%20images/projectspage.png)
 
 ### Contact:
-Displays a communication form that provides user a way to contact the developer. When the user click's submit, at the moment the data will be displayed in the console log,
+Displays a communication form that provides user a way to contact the developer. When the user click's submit, at the moment the data will be displayed in the console log.
 
 ![contactpage](./assets//readme%20images//contactpage.png)
 

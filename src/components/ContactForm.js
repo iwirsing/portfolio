@@ -1,6 +1,6 @@
 
 import classes from './ContactForm.module.css'
-import {useRef} from 'react';
+import { useRef } from 'react';
 
 function NewContactForm(props) {
 
@@ -13,11 +13,11 @@ function NewContactForm(props) {
     function submitHandler(event) {
         event.preventDefault();
         //reading value useRef
-        const enteredName=nameInputRef.current.value;
-        const enteredEmail=emailInputRef.current.value;
-        const enteredMessage=messageInputRef.current.value;
+        const enteredName = nameInputRef.current.value;
+        const enteredEmail = emailInputRef.current.value;
+        const enteredMessage = messageInputRef.current.value;
 
-        const contactData ={
+        const contactData = {
             name: enteredName,
             image: enteredEmail,
             message: enteredMessage
@@ -32,17 +32,25 @@ function NewContactForm(props) {
 
     return <div>
         <form className={classes.form} onSubmit={submitHandler}>
-            <div className={classes.control}>
-                <label htmlFor='name'>Name</label>
-                <input type='text' required id='name' ref={nameInputRef} />
+            <div className={classes.control + ' form-group row'}>
+                <label className='col-sm-2 col-form-label' htmlFor='name'>Name</label>
+                <div className='col-sm-10'>
+                    <input type='text' required id='name' ref={nameInputRef} />
+                </div>
+
             </div>
-            <div className={classes.control}>
-                <label htmlFor='email'>Email</label>
-                <input type='email' required id='email' ref={emailInputRef} />
+            <div className={classes.control + '  form-group row'}>
+                <label className='col-sm-2 col-form-label' htmlFor='email' placeholder='Email'>Email</label>
+                <div className='col-sm-10'>
+                    <input type='email' required id='email' ref={emailInputRef} />
+                </div>
+
             </div>
-            <div className={classes.control}>
-                <label htmlFor='message'>Message</label>
-                <textarea type='text' required id='message' rows='5' ref={messageInputRef}/>
+            <div className={classes.control+ ' form-group row'}>
+                <label className='col-sm-2 col-form-label' htmlFor='message'>Message</label>
+                <div className='col-sm-10'>
+                <textarea type='text' required id='message' rows='3' ref={messageInputRef} />
+                </div>
             </div>
             <div className={classes.actions}>
                 <button>Send</button>

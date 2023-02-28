@@ -9,7 +9,7 @@ import GithubIcon from './assets/images/github.png';
 
 function Project(props) {
     return <Card key={props.id} >
-        <a href={props.link} className='actions'>
+        <a href={props.link} className='actions' target="_blank" rel="noopener noreferrer">
             <div className='image'>
                 <img src={props.image} alt={props.title} />
             </div>

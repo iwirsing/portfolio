@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Module 20 Challenge: Ivy Wirsing's REACT Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  Description:
 
-## Available Scripts
+Create a portfolio using REACT technology so the developer can share the work with other developers and collaborate on projects. This application is deployed in Github Pages using gh-pages.
 
-In the project directory, you can run:
+Deployed website: https://iwirsing.github.io/Module-20-REACT-Portfolio/ 
 
-### `npm start`
+##  Table of Contents 
+1. [Installation](#installation)
+2. [Features and Screenshots](#features-and-screenshots)
+3. [Contributing](#contributing) 
+4. [Future Development]()
+5. [Questions](#questions)
+6. [License](#license)
+7. [Sources](#sources)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. This project is first downloaded. 
+2. Use `npm i` at the project's folder terminal to install the dependencies. 
+3. Then, `npm run start` to run locally.
 
-### `npm test`
+## Features and Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Home:
+Displays the developer's introduction, image and technologies the developer is familiar with.
+![homepage](./assets/readme%20images/homepage.png)
 
-### `npm run build`
+### Projects:
+Displays the developer's projects, with card styling that is linked to the deployed webpage and the git repository. Each project also has a short description.
+![projectpage](./assets/readme%20images/projectspage.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contact:
+Displays a communication form that provides user a way to contact the developer. When the user click's submit, at the moment the data will be displayed in the console log,
+The icons are linked to the developer's LinkedIn, Github as well as a mailTo to the developer's email address.
+![contactpage](./assets//readme%20images//contactpage.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+UPON clicking the submit, the console log displays the form data.
+![consolelog](./assets/readme%20images/consolelog.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributing 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contact the developer.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Developemt
+1. Add more detail on which project has collaboration.
+2. Routing.
+3. Database connection.
+4. REACT animation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Questions? 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Please contact me through any of the following:
 
-## Learn More
+1. My [Github](https://github.com/iwirsing).
+2. Email: <a href="mailto:ivymolina@gmail.com">ivymolina@gmail.com</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
+    
+The project in covered under the [MIT](https://opensource.org/licenses/MIT) license
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Sources
+1. https://stackoverflow.com/
+2. https://getbootstrap.com/
+3. https://reactjs.org/

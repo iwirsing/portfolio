@@ -19,7 +19,7 @@ function ContactPage() {
             
             <NewContactForm/>
 
-            <p className='h4 ' style={{borderRadius: '10px', fontSize:'1rem'}}> &nbsp; &nbsp; Tel: +1 847-558-4015</p>
+   
 
             
             </div>

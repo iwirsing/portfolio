@@ -46,22 +46,30 @@ Displays the developer's projects, with card styling that is linked to the deplo
 ![projectpage](./assets/readme%20images/projectspage.png)
 
 ### Contact:
-Displays a communication form that provides user a way to contact the developer. When the user click's submit, at the moment the data will be displayed in the console log.
+Displays a communication form that provides user a way to contact the developer. When the user click's submit the input form will be validated and after validation the data will be displayed in the console log.
 
-![contactpage](./assets//readme%20images//contactpage.png)
+![contactpage](./assets/readme%20images/contactpage.png)
+![namevalidation](./assets/readme%20images/namevalidation.png)
+![emailvalidation](./assets/readme%20images/emailvalidation.png)
+![emailvalidation2](./assets/readme%20images/emailvalidation2.png)
+![messagevalidation2](./assets/readme%20images/messagevalidation.png)
 
-UPON clicking the submit, the console log displays the form data.
+UPON clicking the submit and form data validation, the console log displays the form data.
 ![consolelog](./assets/readme%20images/consolelog.png)
 
 ### Resume:
 Displays the technologies that the developer has worked with. A download button download's the developer's resume.
-![resume](./assets/readme%20images/resume.jpeg)
+![resume](./assets/readme%20images/resumepage.png)
 
-A screenshot on a downloaded resume.
-![download](./assets/readme%20images/downloadResume.jpeg)
+A screenshot of a successful resume download (bottom left).
+
+![download](./assets/readme%20images/dlresume.png)
 
 ### Footer:
-The icons are linked to the developer's LinkedIn, Github as well as a mailTo to the developer's email address.
+The icons are linked to the developer's LinkedIn, Github as well as a mailTo to the developer's message address.
+
+### Mobile view:
+![mobile](./assets/readme%20images/mobileview.png)
 
 ## Contributing 
 

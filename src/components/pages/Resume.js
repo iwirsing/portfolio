@@ -26,8 +26,8 @@ function ResumePage() {
 
 
 
-        <div style={{ margin: 'auto' }}>
-            
+        <div className='container text-center' style={{ margin: 'auto' }}>
+
 
             {/* <h4 style={{ fontFamily: 'Tangerine', fontWeight: 'bolder', fontSize: '2rem' }}>Please check my &nbsp;
                 <a href={"https://www.linkedin.com/in/ivywirsing"} className="icon linkedin" target="_blank" rel="noopener noreferrer" style={{ color: '#9C030C' }}>LinkedIn</a> &nbsp; for my education and work history</h4> */}
@@ -35,7 +35,7 @@ function ResumePage() {
             <div className='row'>
                 <div className='col-12 col-sm-6 font-end'>
                     <h5 style={{ fontFamily: 'Open Sans', fontWeight: 'bolder', textDecoration: 'underline' }}>
-                        Front-End
+                        Front-End Proficiencies
                     </h5>
                     <ol>
                         <li>
@@ -60,7 +60,7 @@ function ResumePage() {
                 </div>
                 <div className='col-12 col-sm-6 font-end'>
                     <h5 style={{ fontFamily: 'Open Sans', fontWeight: 'bolder', textDecoration: 'underline' }}>
-                        Back-End
+                        Back-End Proficiencies
                     </h5>
                     <ol>
                         <li>
@@ -102,8 +102,10 @@ function ResumePage() {
                         </li>
                     </ol>
                 </div>
-                <div className='col-6 resume'>
-                <button style={{ fontFamily: 'Tangerine', fontWeight: 'bolder', fontSize: '2rem' }} onClick={() => { handleDownload(resume, 'ivyresume.pdf') }}>Download Resume</button>
+                <div className='col-6 resume align-middle'>
+                    <p> </p>
+                    
+                    <button style={{ fontFamily: 'Tangerine', fontWeight: 'bolder', fontSize: '2rem' }} onClick={() => { handleDownload(resume, 'ivyresume.pdf') }}>Download Resume</button>
                 </div>
             </div>
 

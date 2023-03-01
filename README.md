@@ -22,7 +22,7 @@ Deployed website: https://iwirsing.github.io/Module-20-REACT-Portfolio/
     e. [Footer](#footer)
 
 3. [Contributing](#contributing) 
-4. [Future Development]()
+4. [Future Development](#future-development)
 5. [Questions](#questions)
 6. [License](#license)
 7. [Sources](#sources)
@@ -54,7 +54,11 @@ UPON clicking the submit, the console log displays the form data.
 ![consolelog](./assets/readme%20images/consolelog.png)
 
 ### Resume:
-Displays the technologies that the developer has worked with.
+Displays the technologies that the developer has worked with. A download button download's the developer's resume.
+![resume](./assets/readme%20images/resume.jpeg)
+
+A screenshot on a downloaded resume.
+![download](./assets/readme%20images/downloadResume.jpeg)
 
 ### Footer:
 The icons are linked to the developer's LinkedIn, Github as well as a mailTo to the developer's email address.
@@ -63,7 +67,7 @@ The icons are linked to the developer's LinkedIn, Github as well as a mailTo to 
 
 Contact the developer.
 
-## Future Developemt
+## Future Development
 1. Add more detail on which project has collaboration.
 2. Routing.
 3. Database connection.

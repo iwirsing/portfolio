@@ -22,7 +22,7 @@ function Project(props) {
         <p className='content' style={{ fontSize: '0.8rem' }}>
            
             <a href={props.repository}>
-                Repository: <img src={GithubIcon} alt='github link' style={{ height: '5rem', width: '5rem' }} ></img>
+                Repository: <img src={GithubIcon} alt='github link' style={{ height: '5rem', width: '5rem' }} target="_blank"></img>
             </a>
             
             

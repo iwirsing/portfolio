@@ -16,12 +16,17 @@ function NewContactForm(props) {
         const enteredName = nameInputRef.current.value;
         const enteredEmail = emailInputRef.current.value;
         const enteredMessage = messageInputRef.current.value;
+        const submitBtn = document.getElementById('send');
+        submitBtn.innerHTML = 'SENT!'
 
         const contactData = {
             name: enteredName,
             image: enteredEmail,
             message: enteredMessage
         };
+        setInterval(() =>
+        submitBtn.innerHTML = 'Send' , 1500);
+        
 
         //logs input at contact form
         console.log(contactData);
@@ -34,28 +39,31 @@ function NewContactForm(props) {
         <form className={classes.form} onSubmit={submitHandler}>
 
             <div className={classes.control + ' form-group row'}>
-                
-                <label className='col-sm-3 col-form-label' htmlFor='name'>Name</label>
+
+                <label className='col-sm-3 col-form-label' htmlFor='name'>
+                    Name
+                </label>
                 <div className='col-sm-9'>
-                    <input type='text' required id='name' ref={nameInputRef} />
+                    <input type='text' required id='name' ref={nameInputRef} placeholder='Name required' style={{ fontStyle: 'italic' }} />
                 </div>
 
             </div>
             <div className={classes.control + '  form-group row'}>
-                <label className='col-sm-3 col-form-label' htmlFor='email' placeholder='Email'>Email</label>
+                <label className='col-sm-3 col-form-label' htmlFor='email'  >Email</label>
+
                 <div className='col-sm-9'>
-                    <input type='email' required id='email' ref={emailInputRef} />
+                    <input type='email' required id='email' ref={emailInputRef} placeholder='Email required' style={{ fontStyle: 'italic' }} />
                 </div>
 
             </div>
-            <div className={classes.control+ ' form-group row'}>
+            <div className={classes.control + ' form-group row'}>
                 <label className='col-sm-3 col-form-label' htmlFor='message'>Message</label>
                 <div className='col-sm-9'>
-                <textarea type='text' required id='message' rows='5' ref={messageInputRef} />
+                    <textarea type='text' required id='message' rows='7' ref={messageInputRef} placeholder='Message required' style={{ fontStyle: 'italic' }} />
                 </div>
             </div>
-            <div className={classes.actions+' text-center'}>
-                <button>Send</button>
+            <div className={classes.actions + ' text-center'}>
+                <button id='send'>Send</button>
             </div>
 
         </form>

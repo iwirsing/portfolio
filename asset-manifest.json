@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Module-20-REACT-Portfolio/static/css/main.8f85aeaa.css",
-    "main.js": "/Module-20-REACT-Portfolio/static/js/main.580dc033.js",
+    "main.css": "/Module-20-REACT-Portfolio/static/css/main.5fc62a5f.css",
+    "main.js": "/Module-20-REACT-Portfolio/static/js/main.84b9c208.js",
     "static/media/cards-against-apathy.png": "/Module-20-REACT-Portfolio/static/media/cards-against-apathy.a0909d4a351b4ebee8ed.png",
     "static/media/Coding Quiz Challenge.png": "/Module-20-REACT-Portfolio/static/media/Coding Quiz Challenge.f69f8e4441cbf7c15b1a.png",
     "static/media/password generator.png": "/Module-20-REACT-Portfolio/static/media/password generator.a1d8e541f220ad4ef958.png",
@@ -15,11 +15,11 @@
     "static/media/notetaker.png": "/Module-20-REACT-Portfolio/static/media/notetaker.8066e9e03efbbb574d14.png",
     "static/media/brick.jpeg": "/Module-20-REACT-Portfolio/static/media/brick.c71dc89ef58e12830395.jpeg",
     "index.html": "/Module-20-REACT-Portfolio/index.html",
-    "main.8f85aeaa.css.map": "/Module-20-REACT-Portfolio/static/css/main.8f85aeaa.css.map",
-    "main.580dc033.js.map": "/Module-20-REACT-Portfolio/static/js/main.580dc033.js.map"
+    "main.5fc62a5f.css.map": "/Module-20-REACT-Portfolio/static/css/main.5fc62a5f.css.map",
+    "main.84b9c208.js.map": "/Module-20-REACT-Portfolio/static/js/main.84b9c208.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f85aeaa.css",
-    "static/js/main.580dc033.js"
+    "static/css/main.5fc62a5f.css",
+    "static/js/main.84b9c208.js"
   ]
 }

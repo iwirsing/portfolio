@@ -5,7 +5,7 @@
 
 Create a portfolio using REACT technology so the developer can share the work with other developers and collaborate on projects. This application is deployed in Github Pages using gh-pages.
 
-Deployed website: https://iwirsing.github.io/Module-20-REACT-Portfolio/ 
+Deployed website: https://iwirsing.github.io/portfolio/ 
 
 ##  Table of Contents 
 1. [Installation](#installation)

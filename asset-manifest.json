@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Module-20-REACT-Portfolio/static/css/main.5fc62a5f.css",
-    "main.js": "/Module-20-REACT-Portfolio/static/js/main.84b9c208.js",
-    "static/media/cards-against-apathy.png": "/Module-20-REACT-Portfolio/static/media/cards-against-apathy.a0909d4a351b4ebee8ed.png",
-    "static/media/Coding Quiz Challenge.png": "/Module-20-REACT-Portfolio/static/media/Coding Quiz Challenge.f69f8e4441cbf7c15b1a.png",
-    "static/media/password generator.png": "/Module-20-REACT-Portfolio/static/media/password generator.a1d8e541f220ad4ef958.png",
-    "static/media/fof.png": "/Module-20-REACT-Portfolio/static/media/fof.1c23e482b478c4c2039a.png",
-    "static/media/gardenbed1.jpeg": "/Module-20-REACT-Portfolio/static/media/gardenbed1.da9f88b088e9bb1293ad.jpeg",
-    "static/media/neighborhood_garage.jpeg": "/Module-20-REACT-Portfolio/static/media/neighborhood_garage.e45411a35e19018106e7.jpeg",
-    "static/media/ivy1.jpeg": "/Module-20-REACT-Portfolio/static/media/ivy1.567ecc930669cc13bd44.jpeg",
-    "static/media/pwaeditor.png": "/Module-20-REACT-Portfolio/static/media/pwaeditor.31189ccafa9f0e3980d3.png",
-    "static/media/ivyresume.pdf": "/Module-20-REACT-Portfolio/static/media/ivyresume.c3c91298ca3f208d9ea3.pdf",
-    "static/media/github.png": "/Module-20-REACT-Portfolio/static/media/github.41461b33d2bf8c9306a0.png",
-    "static/media/notetaker.png": "/Module-20-REACT-Portfolio/static/media/notetaker.8066e9e03efbbb574d14.png",
-    "static/media/brick.jpeg": "/Module-20-REACT-Portfolio/static/media/brick.c71dc89ef58e12830395.jpeg",
-    "index.html": "/Module-20-REACT-Portfolio/index.html",
-    "main.5fc62a5f.css.map": "/Module-20-REACT-Portfolio/static/css/main.5fc62a5f.css.map",
-    "main.84b9c208.js.map": "/Module-20-REACT-Portfolio/static/js/main.84b9c208.js.map"
+    "main.css": "/portfolio/static/css/main.0ab610ec.css",
+    "main.js": "/portfolio/static/js/main.ee49a6f7.js",
+    "static/media/cards-against-apathy.png": "/portfolio/static/media/cards-against-apathy.a0909d4a351b4ebee8ed.png",
+    "static/media/Coding Quiz Challenge.png": "/portfolio/static/media/Coding Quiz Challenge.f69f8e4441cbf7c15b1a.png",
+    "static/media/password generator.png": "/portfolio/static/media/password generator.a1d8e541f220ad4ef958.png",
+    "static/media/fof.png": "/portfolio/static/media/fof.1c23e482b478c4c2039a.png",
+    "static/media/gardenbed1.jpeg": "/portfolio/static/media/gardenbed1.da9f88b088e9bb1293ad.jpeg",
+    "static/media/neighborhood_garage.jpeg": "/portfolio/static/media/neighborhood_garage.e45411a35e19018106e7.jpeg",
+    "static/media/ivy1.jpeg": "/portfolio/static/media/ivy1.567ecc930669cc13bd44.jpeg",
+    "static/media/pwaeditor.png": "/portfolio/static/media/pwaeditor.31189ccafa9f0e3980d3.png",
+    "static/media/ivyresume.pdf": "/portfolio/static/media/ivyresume.c3c91298ca3f208d9ea3.pdf",
+    "static/media/github.png": "/portfolio/static/media/github.41461b33d2bf8c9306a0.png",
+    "static/media/notetaker.png": "/portfolio/static/media/notetaker.8066e9e03efbbb574d14.png",
+    "static/media/brick.jpeg": "/portfolio/static/media/brick.c71dc89ef58e12830395.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.0ab610ec.css.map": "/portfolio/static/css/main.0ab610ec.css.map",
+    "main.ee49a6f7.js.map": "/portfolio/static/js/main.ee49a6f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fc62a5f.css",
-    "static/js/main.84b9c208.js"
+    "static/css/main.0ab610ec.css",
+    "static/js/main.ee49a6f7.js"
   ]
 }

@@ -1,4 +1,5 @@
 import image1 from './assets/images/fof.png';
+import neighbors from './assets/images/neighborhood_garage.jpeg';
 import cards from './assets/images/cards-against-apathy.png';
 import quiz from './assets/images/Coding Quiz Challenge.png';
 import password from  './assets/images/password generator.png';
@@ -8,6 +9,14 @@ const MyProjects =[
 
     {
         key: 1,
+        title: 'Neighborhood Garage',
+        link: ' https://neighborhood-garage.herokuapp.com/',
+        repository:'https://github.com/JICAalliance/neighborhood-garage',
+        description: 'MERN Stack Project on Tool Sharing',
+        image:`${neighbors}`
+    },
+    {
+        key: 2,
         title: 'Feast Of Friends',
         link: 'https://feast-of-friends.herokuapp.com/',
         repository:'https://github.com/A-Tribu/feast-of-friends',
@@ -15,7 +24,7 @@ const MyProjects =[
         image:`${image1}`
     },
     {
-        key: 2,
+        key: 3,
         title: 'Cards Againts Apathy',
         link: 'https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/',
         repository:'https://github.com/The-Fighting-Mongooses-Official/Cards-Against-Apathy',
@@ -23,7 +32,7 @@ const MyProjects =[
         image:`${cards}`
     },
     {
-        key: 3,
+        key: 4,
         title: 'Coding Quiz',
         link: 'https://iwirsing.github.io/Module-4-Challenge-Coding-Quiz-Game/"',
         repository:'https://github.com/iwirsing/Module-4-Challenge-Coding-Quiz-Game',
@@ -31,7 +40,7 @@ const MyProjects =[
         image:`${quiz}`
     },
     {
-        key: 4,
+        key: 5,
         title: 'Password Generator',
         link: 'https://iwirsing.github.io/Module-3-Challenge-Password-Generator/',
         repository:'https://github.com/iwirsing/Module-3-Challenge-Password-Generator',
@@ -39,7 +48,7 @@ const MyProjects =[
         image:`${password}`
     },
     {
-        key: 5,
+        key: 6,
         title: 'Note Taker',
         link: 'https://note-taker-wirsing.herokuapp.com/',
         repository:'https://github.com/iwirsing/Module-11-Note-Taker',
@@ -47,7 +56,7 @@ const MyProjects =[
         image:`${notetaker}`
     },
     {
-        key: 6,
+        key: 7,
         title: 'PWA Just Another Text Editor',
         link: 'https://wirsing-jate.herokuapp.com/',
         repository:'https://github.com/iwirsing/Module-19-PWA-Text-Editor',

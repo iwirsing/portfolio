@@ -1,5 +1,6 @@
 import './Navigation.module.css';
-//import image
+import { Link } from 'react-router-dom';
+
 
 
 function Navigation({ currentPage, handlePageChange }) {
@@ -10,23 +11,19 @@ function Navigation({ currentPage, handlePageChange }) {
               
                    <ul className='navigation'>
                 <li   >
-                    <a href='#homepage' onClick={() => handlePageChange('HomePage')}
-                        className={currentPage === 'HomePage' ? 'nav-link active' : 'nav-link'}>About</a>
+                    <Link to='/' className='nav-link active'>About</Link>
                 </li>
 
                 <li>
-                    <a href='#projects' onClick={() => handlePageChange('ProjectsPage')}
-                        className={currentPage === 'ProjectsPage' ? 'nav-link active' : 'nav-link'}>Projects</a>
+                    <Link to='/projects' className='nav-link active' >Projects</Link>
                 </li>
 
                 <li>
-                    <a href='#contact' onClick={() => handlePageChange('ContactPage')}
-                        className={currentPage === 'ContactPage' ? 'nav-link active' : 'nav-link'}>Contact</a>
+                    <Link to='/contact' className='nav-link active'  >Contact</Link>
                 </li>
 
                 <li >
-                    <a href='#resume' onClick={() => handlePageChange('ResumePage')}
-                        className={currentPage === 'ResumePage' ? 'nav-link active' : 'nav-link'}>Resume</a>
+                    <Link to='/resume' className='nav-link active' >Resume</Link>
                 </li>
 
                 </ul>

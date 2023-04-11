@@ -5,7 +5,7 @@ import Project from '../projects/Project';
 function ProjectsPage() {
 
     return (
-        <div className='projectContainer container text-center progress ' style={{height: '70vh', backgroundColor:'white'}}>
+        <div className='projectContainer container text-center progress ' style={{height: '100%', backgroundColor:'white'}}>
 
 
             <div style={{ overflowX: "hidden" }} >

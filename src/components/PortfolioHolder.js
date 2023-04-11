@@ -79,7 +79,7 @@ export default function PortfolioHolder() {
                     </div>
 
                     <div className='align-items-center mt-7' style={{marginBottom:'1rem'}}>
-                        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+                        <Navigation />
                     </div>
                 </div>
 

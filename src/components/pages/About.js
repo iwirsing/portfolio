@@ -6,7 +6,7 @@ import './About.module.css'
 
 function HomePage() {
 
-    return <div className='container progress' style={{ height: '70vh', overflowY: 'scroll', backgroundColor: 'white'}}>
+    return <div className='progress' style={{ height: '100%', overflowY: 'scroll', backgroundColor: 'white', topMargin:'3rem'}}>
     <div className=' row  align-middle text-center container' style={{ margin:'auto'}}>
 
         <div className='col-12 col-sm-5 p-3 container-fluid' >

@@ -7,7 +7,7 @@ import NewContactForm from '../ContactForm';
 
 function ContactPage() {
 
-    return (<div className='container' style={{ minWidth: '20rem', width:"100%",  color: 'red', fontSize: '2rem',margin:'auto' }}>
+    return (<div lassName='progress' style={{ height: '100%', overflowY: 'scroll', backgroundColor: 'white', topMargin:'3rem', minWidth: '100%'}}>
         {/* <h4>Reach me via</h4> */}
         
                 <NewContactForm />

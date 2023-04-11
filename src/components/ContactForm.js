@@ -35,7 +35,7 @@ function NewContactForm(props) {
 
     }
 
-    return <div>
+    return (
         <form className={classes.form} onSubmit={submitHandler}>
 
             <div className={classes.control + ' form-group row'}>
@@ -67,7 +67,7 @@ function NewContactForm(props) {
             </div>
 
         </form>
-    </div>
+ );
 }
 
 export default NewContactForm;

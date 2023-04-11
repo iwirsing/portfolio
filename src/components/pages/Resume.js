@@ -21,10 +21,7 @@ function ResumePage() {
 
 
 
-    return <div className='container progress' style={{ height: '70vh', overflowY: 'scroll', backgroundColor: 'white' }}>
-
-
-
+    return <div className='container progress' style={{ height: '100%', overflowY: 'scroll', backgroundColor: 'white' , margin:'auto' }}>
 
         <div className='container text-center' style={{ margin: 'auto' }}>
 

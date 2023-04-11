@@ -1,6 +1,5 @@
 .form {
     padding: 2rem;
-   
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
   }
@@ -45,4 +44,8 @@
   .actions button:active {
     background-color: #a50e48;
     border-color: #a50e48;
+  }
+
+  textarea{
+    resize:none;
   }

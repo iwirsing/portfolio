@@ -11,7 +11,7 @@ function Navigation({ currentPage, handlePageChange }) {
               
                    <ul className='navigation'>
                 <li   >
-                    <Link to='/' className='nav-link active'>About</Link>
+                    <Link to='/portfolio' className='nav-link active'>About</Link>
                 </li>
 
                 <li>

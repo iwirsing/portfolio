@@ -1,6 +1,7 @@
 
 import classes from './ContactForm.module.css'
 import { useRef } from 'react';
+import {send} from '@emailjs/browser';
 
 function NewContactForm(props) {
 
@@ -19,19 +20,23 @@ function NewContactForm(props) {
         const submitBtn = document.getElementById('send');
         submitBtn.innerHTML = 'SENT!'
 
-        const contactData = {
-            name: enteredName,
-            image: enteredEmail,
+        //constants for emailJS
+        const serviceID = process.env.REACT_APP_SERVICE_ID;
+        const templateID = process.env.REACT_APP_TEMPLATE_ID;
+        const myNummer = process.env.REACT_APP_MY_NUMBER;
+
+        
+        const templateParams = {
+            from_name: enteredName,
+            email: enteredEmail,
             message: enteredMessage
         };
+
+        send(serviceID, templateID, templateParams, myNummer);
+
         setInterval(() =>
-        submitBtn.innerHTML = 'Send' , 1500);
+        submitBtn.innerHTML = 'Send' , 3000);
         
-
-        //logs input at contact form
-        console.log(contactData);
-
-        // props.onAddMeetup(meetupData);
 
     }
 

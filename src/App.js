@@ -10,7 +10,6 @@ import ProjectsPage from './components/pages/Project'
 import ResumePage from './components/pages/Resume';
 //import layout holder - a container for the pages
 import Layout from './components/layout/Layout';
-import PageLayout from './components/layout/PageLayout';
 
 //import background image
 import GardenBed1 from './components/projects/assets/images/brick.jpeg';
@@ -26,6 +25,7 @@ import Navigation from './components/Navigation';
 
 //import footer component
 import Footer from './components/Footer';
+
 
 const client = new ApolloClient({
   uri: '/graphql',

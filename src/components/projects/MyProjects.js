@@ -25,9 +25,9 @@ const MyProjects =[
     },
     {
         key: 3,
-        title: 'Cards Againts Apathy',
-        link: 'https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/',
-        repository:'https://github.com/The-Fighting-Mongooses-Official/Cards-Against-Apathy',
+        title: 'Cards Against Apathy',
+        link: 'https://iwirsing.github.io/Cards-Against-Apathy/',
+        repository:'https://github.com/iwirsing/Cards-Against-Apathy',
         description: '\'Gamifying\' exercise.',
         image:`${cards}`
     },

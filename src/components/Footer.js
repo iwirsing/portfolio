@@ -21,7 +21,6 @@ function Footer(props) {
             </a>
             &nbsp;   &nbsp;
             <br/>
-
             <i>{props.title}</i>
         </div>
 

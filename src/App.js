@@ -39,11 +39,11 @@ const App = () => {
     <ApolloProvider client={client}>
       {/* Wrap page elements in Router component to keep track of location state */}
       <Router>
-        <Layout className='container align-items-center' style={{ backgroundImage: `url(${GardenBed1})` }} >
+        <Layout className='container' style={{ backgroundImage: `url(${GardenBed1})` }} >
 
           <div className='row' style={{ minHeight: "400px" }}>
 
-            <div className='col-12 col-md-3 col-sm-3 mx-auto' style={{ minHeight: "420px", padding: "1rem", marginBottom: '.75rem',width:'fit-content'  }}>
+            <div className='col-12 col-md-3 col-sm-3 mx-auto' style={{ minHeight: "420px", width:'fit-content'  }}>
               {/* <div style={{ marginBottom: '5rem', minHeight: "8rem" }}>
                 <Header title='WI' alt='Web Dev Ivy  logo'>
                 </Header>
@@ -60,7 +60,7 @@ const App = () => {
             </div>
 
 
-            <div className='col-8 col-md-8 col-sm-12 page-contain m-auto ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height: '82vh', minHeight: '495px', borderRadius: '20px', minWidth: "375px" }}>
+            <div className='col-8 col-md-8 col-sm-12 page-contain m-auto ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height: '86vh', minHeight: '495px', borderRadius: '20px', minWidth: "375px" }}>
               {/* Wrap Route elements in a Routes component */}
               <Routes>
                 {/* Define routes using the Route component to render different page components at different paths */}

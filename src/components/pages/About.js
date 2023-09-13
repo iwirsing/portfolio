@@ -21,7 +21,7 @@ function HomePage() {
             <h2>Ivy Wirsing</h2>
             <p style={{fontSize:'1.5rem'}}>I am a full-stack developer based in Illinois. I code for Web Dev Ivy projects. </p><p style={{fontSize:'1.5rem'}}>I love to garden, conquer trails and ski downhill. And just like the possibilities of the big outdoors... </p>
             <p style={{color:'#9C030C', fontWeight:'bolder',fontSize:'2rem'}}>I'd love to code for you!</p>
-            <Link to='/projects' style={{color:'#9C030C', fontWeight:'bold', fontSize:'1rem', fontFamily:'inherit', marginBottom:'1rem'}}><u>Check out my completed projects...</u></Link>
+            <Link to='/projects' style={{color:'#9C030C', fontWeight:'bold', fontSize:'1rem', fontFamily:'inherit', marginBottom:'1rem'}}><u><mark>Check out my work -></mark></u></Link>
             <br/>
             <br/>
             </div>

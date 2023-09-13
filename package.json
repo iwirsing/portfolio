@@ -1,7 +1,7 @@
 {
   "name": "module-20-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://iwirsing.github.io/portfolio",
+  "homepage": "http://webdevivy.com",
   "private": false,
   "dependencies": {
     "@apollo/client": "^3.5.8",

@@ -20,8 +20,9 @@ function Footer(props) {
                 </svg>
             </a>
             &nbsp;   &nbsp;
+            <br/>
 
-            <i>{props.footer}</i>
+            <i>{props.title}</i>
         </div>
 
     </div>;

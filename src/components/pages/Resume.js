@@ -97,6 +97,15 @@ function ResumePage() {
                         <li>
                             PWA
                         </li>
+                        <li>
+                            Heroku
+                        </li>
+                        <li>
+                            Hostinger
+                        </li>
+                        <li>
+                            Github
+                        </li>
                     </ol>
                 </div>
                 <div className='col-6 resume align-middle'>

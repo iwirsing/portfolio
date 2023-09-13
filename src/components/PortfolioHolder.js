@@ -84,7 +84,7 @@ export default function PortfolioHolder() {
                 </div>
 
 
-                <div className='col-8 col-md-8 col-sm-12 page-contain ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height:'82vh',minHeight:'495px', margin: '1rem', borderRadius: '20px', minWidth:"375px", marginBottom:'2rem', marginTop:'2rem'}}>
+                <div className='col-8 col-md-8 col-sm- page-contain mx-auto ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height:'82vh',minHeight:'495px', margin: '1rem', borderRadius: '20px', minWidth:"375px", marginBottom:'2rem', marginTop:'2rem'}}>
                     {renderPage()}
 
 

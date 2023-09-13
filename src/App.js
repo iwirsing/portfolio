@@ -11,6 +11,7 @@ import ResumePage from './components/pages/Resume';
 //import layout holder - a container for the pages
 import Layout from './components/layout/Layout';
 
+import logo from '../src/assets/readme images/webdevivy.png';
 //import background image
 import GardenBed1 from './components/projects/assets/images/brick.jpeg';
 
@@ -42,23 +43,32 @@ const App = () => {
 
           <div className='row' style={{ minHeight: "400px" }}>
 
-            <div className='col-12 col-md-3 col-sm-3 mr-4 ml-4' style={{ minHeight: "420px", padding: "1rem", marginBottom: '.75rem' }}>
-              <div style={{ marginBottom: '5rem', minHeight: "8rem" }}>
-                <Header title='IW'>
+            <div className='col-12 col-md-3 col-sm-3 mx-auto' style={{ minHeight: "420px", padding: "1rem", marginBottom: '.75rem',width:'fit-content'  }}>
+              {/* <div style={{ marginBottom: '5rem', minHeight: "8rem" }}>
+                <Header title='WI' alt='Web Dev Ivy  logo'>
                 </Header>
-              </div>
 
-              <div className='align-items-center mt-7' style={{ marginBottom: '1rem' }}>
+              </div> */}
+              <div className='mx-auto' style={{width:'fit-content'}}>
+              <img src={logo} style={{ height:'100%', width:'fit-content'}}></img>
+              </div>
+              
+
+              <div className='align-items-center ' style={{ width:'fit-content' }}>
                 <Navigation />
               </div>
             </div>
 
 
-            <div className='col-8 col-md-8 col-sm-12 page-contain ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height: '82vh', minHeight: '495px', margin: '1rem', borderRadius: '20px', minWidth: "375px", marginBottom: '2rem', marginTop: '2rem' }}>
+            <div className='col-8 col-md-8 col-sm-12 page-contain m-auto ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height: '82vh', minHeight: '495px', borderRadius: '20px', minWidth: "375px" }}>
               {/* Wrap Route elements in a Routes component */}
               <Routes>
                 {/* Define routes using the Route component to render different page components at different paths */}
                 {/* Define a default route that will render the Home component */}
+                <Route
+                  path="/"
+                  element={<HomePage />}
+                />
                 <Route
                   path="/portfolio"
                   element={<HomePage />}
@@ -82,7 +92,7 @@ const App = () => {
 
             </div>
           </div>
-          <Footer />
+          <Footer title='Copyright © 2023. Web Dev Ivy. All Rights Reserved.'></Footer> 
         </Layout>
       </Router >
     </ApolloProvider >

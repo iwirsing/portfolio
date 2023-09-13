@@ -1,5 +1,5 @@
 h1 {
-    color: #9C030C;
+    color:#9C030C ;
     font-family: 'Tangerine', cursive;
     font-size: 11rem;
     font-weight: 900px;
@@ -9,6 +9,10 @@ h1 {
     -3px 3px 0 whitefamily
 }
 
+.logo {
+  width:100%;
+  margin: auto;
+}
 
 p{
   font-size: 1.5rem;

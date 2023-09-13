@@ -41,7 +41,7 @@ function NewContactForm(props) {
     }
 
     return (
-        <form className={classes.form} onSubmit={submitHandler}>
+        <form style={{marginTop:'5rem'}} className={classes.form} onSubmit={submitHandler}>
 
             <div className={classes.control + ' form-group row'}>
 

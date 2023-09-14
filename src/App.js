@@ -60,7 +60,7 @@ const App = () => {
             </div>
 
 
-            <div className='col-8 col-md-8 col-sm-12 page-contain m-auto ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height: '86vh', minHeight: '495px', borderRadius: '20px', minWidth: "375px" }}>
+            <div className='col-8 col-md-8 col-sm-12 page-contain m-auto ' style={{ backgroundColor: 'rgba(255, 255, 255, 0.75)', height: '82vh', minHeight: '495px', borderRadius: '20px', minWidth: "375px" }}>
               {/* Wrap Route elements in a Routes component */}
               <Routes>
                 {/* Define routes using the Route component to render different page components at different paths */}

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.861d8f59.css",
-    "main.js": "/static/js/main.8222d016.js",
+    "main.css": "/static/css/main.ae83d9c8.css",
+    "main.js": "/static/js/main.2ee2f0fb.js",
     "static/media/cards-against-apathy.png": "/static/media/cards-against-apathy.a0909d4a351b4ebee8ed.png",
     "static/media/Coding Quiz Challenge.png": "/static/media/Coding Quiz Challenge.f69f8e4441cbf7c15b1a.png",
     "static/media/password generator.png": "/static/media/password generator.a1d8e541f220ad4ef958.png",
@@ -17,11 +17,11 @@
     "static/media/notetaker.png": "/static/media/notetaker.8066e9e03efbbb574d14.png",
     "static/media/brick.jpeg": "/static/media/brick.c71dc89ef58e12830395.jpeg",
     "index.html": "/index.html",
-    "main.861d8f59.css.map": "/static/css/main.861d8f59.css.map",
-    "main.8222d016.js.map": "/static/js/main.8222d016.js.map"
+    "main.ae83d9c8.css.map": "/static/css/main.ae83d9c8.css.map",
+    "main.2ee2f0fb.js.map": "/static/js/main.2ee2f0fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.861d8f59.css",
-    "static/js/main.8222d016.js"
+    "static/css/main.ae83d9c8.css",
+    "static/js/main.2ee2f0fb.js"
   ]
 }
